@@ -34,11 +34,11 @@ Pipelines
 Total genomic DNA
 
 - [Genomic Nanopore Flye](Pipelines/Genomic_nanopore.sh)
-- [Genomic Nanopore polished Flye](Pipelines/Genomic_nanopore.sh)
+- [Genomic Nanopore polished Flye](Pipelines/Genomic_nanopore_polished.sh)
 - [Genomic Illumina](Pipelines/Genomic_Illumina.sh)
 - [Genomic Hybrid](Pipelines/Genomic_hybrid.sh)
 
-Plasmid DNA only
+Plasmid only DNA
 - [Plasmid Nanopore Flye](Pipelines/Plasmid_nanopore_flye.sh)
 - [Plasmid Nanopore Canu](Pipelines/Plasmid_nanopore_canu.sh)
 - [Plasmid Nanopore Unicycler](Pipelines/Plasmid_nanopore_unicycler.sh)
@@ -59,5 +59,5 @@ As is reccomended with most bioinformatics software, this pipeline is contained 
 
 [Usage](Manual/Usage.md)
 ----------
-Reccomended system requirements: 8 core CPU, 32gb system memory, 256gb SSD
+Reccomended system requirements: 8 core CPU, 32gb system memory, 500gb SSD
 
