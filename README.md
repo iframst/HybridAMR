@@ -1,5 +1,4 @@
 # HybridAMR
-Bioinformatic pipeline for &lt;Name of paper>
 
 **Comparison of Three Dedicated Annotation Platforms for Identification of Antimicrobial Resistance Genes in Long-Read, Short-Read, and Hybrid Sequences Derived from Genomic DNA and Plasmid DNA** 
 
@@ -21,22 +20,31 @@ Affiliations
 
 \# Corresponding author: Grazieli Maboni, gmaboni@uoguelph.ca 
 
-This repository contains supporting documentation for hybrid Illumina miSeq and Oxford Nanopore minION bacterial plasmid assembly for the detection of antimicrobial susceptibility genotypes. Each pipeline is designed to validate a specific set of input conditions.
+Repository Information
+---
+
+This repository contains supporting documentation for hybrid Illumina miSeq and Oxford Nanopore minION bacterial plasmid assembly for the detection of antimicrobial susceptibility genotypes. Each pipeline corresponds to a unique combination of assembly methods and tools, however they can be grouped into four main methods: 
+- Nanopore-only assembly 
+- Illimuna-only assembly 
+- Nanopore assmebly polished with Illumina reads
+- Hybrid assembly
 
 Pipelines
 ---------
 Total genomic DNA
 
 - [Genomic Nanopore Flye](Pipelines/Genomic_nanopore.sh)
-- [Genomic Nanopore Canu](Pipelines/Genomic_nanopore_canu.sh)
-- [Genomic Nanopore Unicycler](Pipelines/Genomic_nanopore_unicycler.sh)
+- [Genomic Nanopore polished Flye](Pipelines/Genomic_nanopore.sh)
 - [Genomic Illumina](Pipelines/Genomic_Illumina.sh)
 - [Genomic Hybrid](Pipelines/Genomic_hybrid.sh)
 
 Plasmid DNA only
-- [Plasmid Nanopore](Pipelines/Plasmid_nanopore.sh)
+- [Plasmid Nanopore Flye](Pipelines/Plasmid_nanopore_flye.sh)
 - [Plasmid Nanopore Canu](Pipelines/Plasmid_nanopore_canu.sh)
 - [Plasmid Nanopore Unicycler](Pipelines/Plasmid_nanopore_unicycler.sh)
+- [Plasmid Nanopore polished Flye](Pipelines/Plasmid_nanopore_polished_flye.sh)
+- [Plasmid Nanopore polished Canu](Pipelines/Plasmid_nanopore_polished_canu.sh)
+- [Plasmid Nanopore polished Unicycler](Pipelines/Plasmid_nanopore_polished_unicycler.sh)
 - [Plasmid Illumina](Pipelines/Plasmid_illumina.sh)
 - [Plasmid Hybrid](Pipelines/Plasmid_hybrid.sh)
 
