@@ -4,14 +4,11 @@
 Environment and package managers
 ---
 
-Insallation of pipeline dependencies is accomplished through conda and homebrew, and requires macOS or Linux (no support for Windows).
+Insallation of pipeline dependencies uses conda and homebrew, and requires macOS or Linux (no support for Windows).
 
 Package managers
 
 Install [conda](https://docs.conda.io/en/latest/miniconda.html)   
-
-
-
 
 Install [homebrew](https://brew.sh)   
 
@@ -19,9 +16,9 @@ Install [homebrew](https://brew.sh)
 
 Dependencies
 ---
-Download and install the followign script to automatically install all dependencies:
+Download and install the following script to install all dependencies:
 
-    /bin/bash -c "(curl -fsSL )"
+    /bin/bash -c "(curl -fsSL https://github.com/iframst/HybridAMRg/blob/b5e62cbf315009751f20aaa1674af361309d2587/Manual/deps_install.sh)"
 
 Alternatively, install pipeline dependencies from their respective sources.
 
@@ -39,5 +36,7 @@ Alternatively, install pipeline dependencies from their respective sources.
 - [pilon](https://github.com/broadinstitute/pilon)
 - [racon](https://github.com/isovic/racon)
 - [metaphlan2](https://github.com/biobakery/MetaPhlAn2)
+
+
 
 

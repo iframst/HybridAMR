@@ -8,8 +8,8 @@
 ## Isaac Framst (iframst@uoguelph.ca) 
 
 
-mkdir HybridAMRdeps
-cd HybridAMRdeps
+mkdir HybridAMRg_deps
+cd HybridAMRg_deps
 
 ## Porechop
 git clone https://github.com/rrwick/Porechop.git
