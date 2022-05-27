@@ -38,6 +38,23 @@ brew install samtools
 ## QUAST
 conda install -c bioconda quast
 
-##Prokka
+## Prokka
 brew install brewsci/bio/prokka
 
+## AMR finder
+conda install -y -c bioconda -c conda-forge ncbi-amrfinderplus
+
+## Spades
+brew install spades
+
+## minimap2
+brew install minimap2
+
+## pilon
+conda install -c bioconda pilon
+
+##racon
+conda install -c bioconda racon 
+
+## metaphlan2
+conda install -c bioconda metaphlan2 
