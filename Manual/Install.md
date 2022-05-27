@@ -19,20 +19,25 @@ Install [homebrew](https://brew.sh)
 
 Dependencies
 ---
-Install pipeline dependencies
+Download and install the followign script to automatically install all dependencies:
 
-Porechop
-flye
-canu
-unicycler
-BWA
-samtools
-QUAST
-Prokka
-AMR finder
-spades
-minimap2
-pilon
-racon
-metaphlan
+    /bin/bash -c "(curl -fsSL )"
+
+Alternatively, install pipeline dependencies from their respective sources.
+
+- [Porechop](https://github.com/rrwick/Porechop)
+- [flye](https://github.com/fenderglass/Flye)
+- [canu](https://github.com/marbl/canu)
+- [unicycler](https://github.com/rrwick/Unicycler)
+- [BWA](https://github.com/lh3/bwa)
+- [samtools](https://github.com/samtools/samtools)
+- [QUAST](http://quast.sourceforge.net/install.html)
+- [Prokka](https://github.com/tseemann/prokka)
+- [AMR finder](https://github.com/ncbi/amr)
+- [spades](https://github.com/ablab/spades) 
+- [minimap2](https://github.com/lh3/minimap2)
+- [pilon](https://github.com/broadinstitute/pilon)
+- [racon](https://github.com/isovic/racon)
+- [metaphlan2](https://github.com/biobakery/MetaPhlAn2)
+
 
