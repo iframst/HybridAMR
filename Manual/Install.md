@@ -18,7 +18,7 @@ Dependencies
 ---
 Download and install the following script to install all dependencies:
 
-    /bin/bash -c "(curl -fsSL https://github.com/iframst/HybridAMRg/blob/b5e62cbf315009751f20aaa1674af361309d2587/Manual/deps_install.sh)"
+    /bin/bash -c "(curl -fsSL [https://github.com/iframst/HybridAMRg/blob/b5e62cbf315009751f20aaa1674af361309d2587/Manual/deps_install.sh])"
 
 Alternatively, install pipeline dependencies from their respective sources.
 
