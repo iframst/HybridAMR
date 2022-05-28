@@ -1,4 +1,4 @@
-# HybridAMR
+# HybridAMRgenotyping
 
 **Comparison of Three Dedicated Annotation Platforms for Identification of Antimicrobial Resistance Genes in Long-Read, Short-Read, and Hybrid Sequences Derived from Genomic DNA and Plasmid DNA** 
 
@@ -60,4 +60,6 @@ As is reccomended with most bioinformatics software, this pipeline is contained 
 [Usage](Manual/Usage.md)
 ----------
 Reccomended system requirements: 8 core CPU, 32gb system memory, 500gb SSD
+
+Please see the install and usage document for details.
 
