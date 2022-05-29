@@ -16,9 +16,10 @@ Install [homebrew](https://brew.sh)
 
 Dependencies
 ---
-Download and install the following script to install all dependencies:
+Enter the following command into your terminal to install all dependencies:
 
-    /bin/bash -c "(curl -fsSL [https://github.com/iframst/HybridAMRg/blob/b5e62cbf315009751f20aaa1674af361309d2587/Manual/deps_install.sh])"
+    wget -O - https://raw.githubusercontent.com/iframst/HybridAMRgenotyping/main/Manual/deps_install.sh | bash
+
 
 Alternatively, install pipeline dependencies from their respective sources.
 
