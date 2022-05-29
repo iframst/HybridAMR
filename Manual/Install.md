@@ -4,7 +4,7 @@
 Environment and package managers
 ---
 
-Insallation of pipeline dependencies uses conda and homebrew, and requires macOS or Linux (no support for Windows).
+Insallation of pipeline dependencies uses conda and homebrew, and requires macOS or Linux (no Windows support).
 
 Package managers
 
@@ -38,6 +38,8 @@ Alternatively, install pipeline dependencies from their respective sources.
 - [racon](https://github.com/isovic/racon)
 - [metaphlan2](https://github.com/biobakery/MetaPhlAn2)
 
+---
+Next: [Usage](Manual/usage.md)
 
 
 
