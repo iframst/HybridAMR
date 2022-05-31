@@ -39,7 +39,8 @@ Alternatively, install pipeline dependencies from their respective sources.
 - [metaphlan2](https://github.com/biobakery/MetaPhlAn2)
 
 ---
-Next: [Usage](Manual/usage.md)
+
+Next: [Usage](usage.md)
 
 
 
