@@ -45,7 +45,7 @@ samtools view -b -S bwa_mapping.sam > bwa_mapping.bam
 samtools sort bwa_mapping.bam bwa_mapping_sorted
 samtools index bwa_mapping_sorted.bam
 
-pilon --genome index ${runID}_assm_raw/assembly.fasta --bam bwa_mapping_sorted.bam --output $runID --outdir ${runID}_pilon --vcf
+pilon --genome ${runID}_assm_raw/assembly.fasta --bam bwa_mapping_sorted.bam --output $runID --outdir ${runID}_pilon --vcf
 
 cd ..
 
