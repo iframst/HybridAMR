@@ -45,7 +45,7 @@ Plasmid only DNA
 - [Plasmid Nanopore polished Flye](Pipelines/Plasmid_nanopore_polished_flye.sh)
 - [Plasmid Nanopore polished Canu](Pipelines/Plasmid_nanopore_polished_canu.sh)
 - [Plasmid Nanopore polished Unicycler](Pipelines/Plasmid_nanopore_polished_unicycler.sh)
-- [Plasmid Illumina](Pipelines/Plasmid_illumina.sh)
+- [Plasmid Illumina](Pipelines/Plasmid_illumina_spades.sh)
 - [Plasmid Hybrid](Pipelines/Plasmid_hybrid_spades.sh)
 
 [Dependencies](Manual/Install.md)
