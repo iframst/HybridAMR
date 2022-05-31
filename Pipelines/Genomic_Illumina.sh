@@ -27,11 +27,13 @@ metaphlan2 --input_type fastq -t rel_ab_w_read_stats $fwdRead,$revRead,$readsIN_
 
 spades.py -1 $fwdRead -2 $revRead -o ${runID}_spades -m 1024
 
-bwa index ${runID}_spades/contigs.fasta
-bwa mem ${runID}_spades/contigs.fasta $fwdRead $revRead > bwa_mapping.sam
+bwa index ${runID}_spades/scaffolds.fasta
+bwa mem -v 2 -M ${runID}_spades/scaffolds.fasta $fwdRead $revRead > bwa_mapping.sam
 
-samtools view -b bwa_mapping.sam > bwa_mapping.bam 
-samtools sort bwa_mapping.bam > bwa_mapping_sorted.bam
+samtools view -b -S bwa_mapping.sam > bwa_mapping.bam 
+samtools sort bwa_mapping.bam bwa_mapping_sorted
 samtools index bwa_mapping_sorted.bam
 
-pilon --genome ${runID}_spades/contigs.fasta --bam bwa_mapping_sorted.bam --output $runID --outdir ${runID}_pilon --vcf
+pilon --genome ${runID}_spades/scaffolds.fasta --bam bwa_mapping_sorted.bam --output $runID --outdir ${runID}_pilon --vcf
+
+# pipeline verified May 30th 2022
