@@ -31,14 +31,16 @@ porechop -i $readsIN_ONT -o ${runID}_porechop.fastq
 
 spades.py -1 $fwdRead -2 $revRead --nanopore ${runID}_porechop.fastq -o ${runID}_spades -m 1024
 
-bwa index ${runID}_spades/contigs.fasta
-bwa mem ${runID}_spades/contigs.fasta $fwdRead $revRead $readsIN_ONT >bwa_mapping.sam
+bwa index ${runID}_spades/scaffolds.fasta
+bwa mem -v 2 -M ${runID}_spades/scaffolds.fasta $fwdRead $revRead ${runID}_porechop.fastq > bwa_mapping.sam
 
-samtools view -b bwa_mapping.sam > bwa_mapping.bam 
-samtools sort bwa_mapping.bam > bwa_mapping_sorted.bam
+samtools view -b -S bwa_mapping.sam > bwa_mapping.bam 
+samtools sort bwa_mapping.bam bwa_mapping_sorted
 samtools index bwa_mapping_sorted.bam
 
 pilon --genome ${runID}_spades/contigs.fasta --bam bwa_mapping_sorted.bam --output $runID --outdir ${runID}_pilon --vcf
+
+# pipeline validated May 30 2022
 
 
 
