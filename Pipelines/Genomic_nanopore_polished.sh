@@ -1,14 +1,11 @@
-## Isaac Framst
-## University of Guelph, OVC Pathobiology
-## University of Georgia, Pathology department
-## Supervisor: Dr. Grazieli Maboni
+## Genomic DNA ONT and illumina hybrid assembly pipeline for Maboni et al. 2022
 
-## updated May 25, 2022 by Isaac Framst (iframst@uoguelph.ca)
+## Three Different Annotation Platforms Differ Significantly in Detection of Antimicrobial Resistance Genes 
+## in Long-Read, Short-Read, and Hybrid Sequences Derived from Total Genomic DNA or from Purified Plasmid DNA
 
-
-## Bioinformatics pipleline for nanopore only reads AMR Sequencing Project (UGA - Dr. Grazieli Maboni)
-## User input for assigning a sample ID to the barcoded output from minKNOW
-
+## Isaac Framst (iframst@uoguelph.ca) 
+## University of Guelph, Department of Pathobiology
+## University of Georgia, Athens Veterinary Diagnostic Laboratory
 
 #*************************************************
 echo "please assign run ID"

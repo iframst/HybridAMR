@@ -1,11 +1,11 @@
-## Genomic DNA Hybrid assembly pipeline for Maboni et al. 2022
+## Assembly pipeline for Maboni et al. 2022
 
-## Comparison of Three Dedicated Annotation Platforms for 
-## Identification of Antimicrobial Resistance Genes in 
-## Long-Read, Short-Read, and Hybrid Sequences Derived from 
-## Genomic DNA and Plasmid DNA
+## Three Different Annotation Platforms Differ Significantly in Detection of Antimicrobial Resistance Genes 
+## in Long-Read, Short-Read, and Hybrid Sequences Derived from Total Genomic DNA or from Purified Plasmid DNA
 
 ## Isaac Framst (iframst@uoguelph.ca) 
+## University of Guelph, Department of Pathobiology
+## University of Georgia, Athens Veterinary Diagnostic Laboratory
 
 printf "Run started on $(date) \n"
 printf "Hybrid Genomic DNA assembly\n\n"
