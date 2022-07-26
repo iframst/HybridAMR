@@ -19,5 +19,5 @@ Each pipeline takes as input a file or directory containing fastq reads. The pip
 
 
 **Outputs**  
-A directory containing results of each sub-program, and the final assembly with corresponding annotation report. Outputs are named acording to the input file/dir.
+A directory containing results of each sub-program, and the final assembly with corresponding annotation report. Outputs are named acording to the input file or directory.
 

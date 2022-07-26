@@ -1,9 +1,9 @@
 ## Genomic DNA illumina assembly pipeline for Maboni et al. 2022
 
-## Three Different Annotation Platforms Differ Significantly in Detection of Antimicrobial Resistance Genes 
-## in Long-Read, Short-Read, and Hybrid Sequences Derived from Total Genomic DNA or from Purified Plasmid DNA
+## Three Distinct Annotation Platforms Differ in Detection of Antimicrobial Resistance Genes in Long-Read, 
+## Short-Read, and Hybrid Sequences Derived from Total Genomic DNA or from Purified Plasmid DNA
 
-## Isaac Framst (iframst@uoguelph.ca) 
+## Pipeline by Isaac Framst (iframst@uoguelph.ca) 
 ## University of Guelph, Department of Pathobiology
 ## University of Georgia, Athens Veterinary Diagnostic Laboratory
 

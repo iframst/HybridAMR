@@ -34,7 +34,7 @@ porechop -i temp/${runID}_all.fastq -o trimmed/${runID}_trimmed.fastq --threads 
 ## Assemble
 flye --nano-raw trimmed/${runID}_trimmed.fastq --out-dir assembled_raw/${runID}_assm_raw --threads 4 -i 2 --asm-coverage 100 --genome-size 100k
 
-
+## generate overlap consensus for polishing 
 minimap2 -x map-ont --secondary=no -t 8 assembled_raw/${runID}_assm_raw/assembly.fasta trimmed/${runID}_trimmed.fastq > temp/Polish_ONT.paf
 
 ## Polish
