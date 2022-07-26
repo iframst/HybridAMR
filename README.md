@@ -1,6 +1,6 @@
 # HybridAMRgenotyping
 
-**Three Different Annotation Platforms Differ Significantly in Detection of Antimicrobial Resistance Genes in Long-Read, Short-Read, and Hybrid Sequences Derived from Total Genomic DNA or from Purified Plasmid DNA** 
+**Three Distinct Annotation Platforms Differ in Detection of Antimicrobial Resistance Genes in Long-Read, Short-Read, and Hybrid Sequences Derived from Total Genomic DNA or from Purified Plasmid DNA** 
 
 Grazieli Maboni<sup>1,2#</sup>, Rodrigo de Paula Baptista<sup>3,6,7</sup>, Joy Wireman<sup>5</sup>, Isaac Framst<sup>2</sup>, Anne O. Summers<sup>5</sup>, Susan Sanchez<sup>1,4</sup>
 
@@ -52,7 +52,7 @@ HybridAMR relies on the use of previously developed open-source software. The sp
 
 [Installation](Manual/Install.md) 
 -----------
-As is reccomended with most bioinformatics software, this pipeline is contained in a conda environment with the necessary dependencies and python version.
+Install using command line with conda, homebrew, or build dependencies from source. Windows installation not currently supported.
 
 
 [Usage](Manual/Usage.md)
