@@ -22,6 +22,9 @@ Affiliations
 
 \# Corresponding author: Grazieli Maboni, gmaboni@uoguelph.ca 
 
+
+Maboni, G.; Baptista, R.d.P.; Wireman, J.; Framst, I.; Summers, A.O.; Sanchez, S. Three Distinct Annotation Platforms Differ in Detection of Antimicrobial Resistance Genes in Long-Read, Short-Read, and Hybrid Sequences Derived from Total Genomic DNA or from Purified Plasmid DNA. Antibiotics 2022, 11, 1400. https://doi.org/10.3390/antibiotics11101400
+
 Repository Information
 ---
 
