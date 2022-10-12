@@ -21,6 +21,7 @@ Affiliations
 <sup>7</sup> Department of Infectious Diseases, University of Georgia, Athens, GA 30602, USA
 
 \# Corresponding author: Grazieli Maboni, gmaboni@uoguelph.ca 
+
 Repository Information
 ---
 
