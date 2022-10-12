@@ -5,7 +5,9 @@
 Grazieli Maboni<sup>1,2#</sup>, Rodrigo de Paula Baptista<sup>3,4,5</sup>, Joy Wireman<sup>6</sup>, Isaac Framst<sup>2</sup>, Anne O. Summers<sup>6</sup>, Susan Sanchez<sup>1,7</sup>
 
 Affiliations 
+
 <sup>1</sup> Athens Veterinary Diagnostic Laboratory, University of Georgia, Athens, GA 30602, USA
+
 <sup>2</sup> Department of Pathobiology, Ontario Veterinary College, University of Guelph, Guelph, ON N1G 2W1, Canada
 
 <sup>3</sup> Institute of Bioinformatics, University of Georgia, Athens, GA 30602, USA
