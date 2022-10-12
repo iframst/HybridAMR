@@ -2,24 +2,23 @@
 
 **Three Distinct Annotation Platforms Differ in Detection of Antimicrobial Resistance Genes in Long-Read, Short-Read, and Hybrid Sequences Derived from Total Genomic DNA or from Purified Plasmid DNA** 
 
-Grazieli Maboni<sup>1,2#</sup>, Rodrigo de Paula Baptista<sup>3,6,7</sup>, Joy Wireman<sup>5</sup>, Isaac Framst<sup>2</sup>, Anne O. Summers<sup>5</sup>, Susan Sanchez<sup>1,4</sup>
+Grazieli Maboni<sup>1,2#</sup>, Rodrigo de Paula Baptista<sup>3,4,5</sup>, Joy Wireman<sup>6</sup>, Isaac Framst<sup>2</sup>, Anne O. Summers<sup>6</sup>, Susan Sanchez<sup>1,7</sup>
 
 Affiliations 
-<sup>1</sup> Athens Veterinary Diagnostic Laboratory, University of Georgia, Athens, Georgia, USA
-<sup>2</sup>Department of Pathobiology, Ontario Veterinary College, University of Guelph, Guelph, Canada
+<sup>1</sup> Athens Veterinary Diagnostic Laboratory, University of Georgia, Athens, GA 30602, USA
+<sup>2</sup> Department of Pathobiology, Ontario Veterinary College, University of Guelph, Guelph, ON N1G 2W1, Canada
 
-<sup>3</sup>Institute of Bioinformatics, University of Georgia, Athens, Georgia, USA
+<sup>3</sup> Institute of Bioinformatics, University of Georgia, Athens, GA 30602, USA
 
-<sup>4</sup> Department of Microbiology, University of Georgia, Athens, Georgia, USA
+<sup>4</sup> Center for Tropical and Emerging Global Diseases, University of Georgia, Athens, GA 30602, USA
 
-<sup>5</sup> Department of Infectious Diseases, University of Georgia, Athens, Georgia, USA
+<sup>5</sup> Department of Infectious Diseases, Houston Methodist Research Institute, Houston, TX 77030, USA
 
-<sup>6</sup>Center for Tropical and Emerging Global Diseases, University of Georgia, Athens, Georgia, USA
+<sup>6</sup> Department of Microbiology, University of Georgia, Athens, GA 30602, USA
 
-<sup>7</sup>Department of Infectious Diseases, Houston Methodist Research Institute, Houston, Texas, USA
+<sup>7</sup> Department of Infectious Diseases, University of Georgia, Athens, GA 30602, USA
 
 \# Corresponding author: Grazieli Maboni, gmaboni@uoguelph.ca 
-
 Repository Information
 ---
 
